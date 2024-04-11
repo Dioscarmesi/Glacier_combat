@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0e960696e2935c4459c5e210b6935d7e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: c6b508151abe0a040a11a4b72bff5b69, type: 3}
+  settings:
+    shaderName: Lit Variants/Lit v3 SSR
+    materialType: 0
+    bicubicLightmap: 0
+    gsaa: 2
+    anisotropy: 3
+    bakeryMonoSH: 0
+    lightmappedSpecular: 0
+    grabPass: 1
+    alphaToCoverage: 1
+    customEditorGUI: 
+  generateUnityShader: 0

@@ -1,0 +1,1518 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 32508 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Micky/Downloads/Glaciar Combat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50858
+Successfully changed project path to: C:/Users/Micky/Downloads/Glaciar Combat
+C:/Users/Micky/Downloads/Glaciar Combat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [51068] Host "[IP] 192.168.100.213 [Port] 0 [Flags] 2 [Guid] 1929504607 [EditorId] 1929504607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JVPJTRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [51068] Host "[IP] 192.168.100.213 [Port] 0 [Flags] 2 [Guid] 1929504607 [EditorId] 1929504607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JVPJTRO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.40 ms, found 29 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Micky/Downloads/Glaciar Combat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005522 seconds.
+- Loaded All Assemblies, in  0.188 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.141 seconds
+Domain Reload Profiling: 328ms
+	BeginReloadAssembly (49ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (48ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (141ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (109ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Micky\Downloads\Glaciar Combat\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Micky\Downloads\Glaciar Combat\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 29 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 29 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (145.8 KB). Loaded Objects now: 3768.
+Memory consumption went from 148.0 MB to 147.9 MB.
+Total: 2.456300 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.047400 ms  DeleteObjects: 0.151500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 614999.548760 seconds.
+  path: Assets/Bakery/examples/example_lights.unity
+  artifactKey: Guid(4c752a895116f7f468595f01e2df48d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/example_lights.unity using Guid(4c752a895116f7f468595f01e2df48d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '953fdaba02059cbb0f5322eba9dc11f5') in 0.063340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/LitShaderSettings.asset
+  artifactKey: Guid(0e262c4e2d66bde44b0fdf436f1e7bce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/LitShaderSettings.asset using Guid(0e262c4e2d66bde44b0fdf436f1e7bce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6de2699cc089cf2b3d7fdad2f61c903') in 0.033058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/ftMultiply.shader
+  artifactKey: Guid(ca0c6046e6cde2d4391e91bbffb3e915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/ftMultiply.shader using Guid(ca0c6046e6cde2d4391e91bbffb3e915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24776608ade07cba40141b146a47511b') in 0.011078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BakeryLightmaps/SampleScene_LM0_final.hdr
+  artifactKey: Guid(8ceef43d8943b90429ceffa6fbebc3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BakeryLightmaps/SampleScene_LM0_final.hdr using Guid(8ceef43d8943b90429ceffa6fbebc3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4c040fa2dcfb55d2ca36c43cd63bb32') in 0.041139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Bakery/ftFarSphereProjClip.shader
+  artifactKey: Guid(931ec1b7cfa5bbd49a82f46676bdbbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/ftFarSphereProjClip.shader using Guid(931ec1b7cfa5bbd49a82f46676bdbbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b5a9fde8d2d6119114be6084f3bdb58') in 0.007606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Vida.cs
+  artifactKey: Guid(9715f5510072ed74482a902b23666029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Vida.cs using Guid(9715f5510072ed74482a902b23666029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65cf791fca527e0db7555f218ce9f09e') in 0.007302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Bakery/ftGlobalStorage.cs
+  artifactKey: Guid(c789d55c4f1cff34799abba03737e8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/ftGlobalStorage.cs using Guid(c789d55c4f1cff34799abba03737e8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86cabd135b91b2ff252ce92b7fe65656') in 0.009919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Bakery/BakeryPointLight.cs
+  artifactKey: Guid(57f24a4aaa0761b45ba25e7e5108e2c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/BakeryPointLight.cs using Guid(57f24a4aaa0761b45ba25e7e5108e2c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0288d0f2095e77f0a2e6caa97624b666') in 0.006254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Bakery/ftDefaultAreaLightMat.mat
+  artifactKey: Guid(ea803d5e2c877f84e8ca6599c9cefb15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/ftDefaultAreaLightMat.mat using Guid(ea803d5e2c877f84e8ca6599c9cefb15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '721854f9c3de8bed664ad392ec6a1a32') in 0.010415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Bakery/examples/example_directional_RNM.unity
+  artifactKey: Guid(dd4e6ce35782a5344be540357d6f9698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/example_directional_RNM.unity using Guid(dd4e6ce35782a5344be540357d6f9698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '320e5935c6c6b6f3ffb5d95b735d01ef') in 0.005499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Cueva.mat
+  artifactKey: Guid(10a8071a005a772489d23d0080f6a1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Map/Cueva.mat using Guid(10a8071a005a772489d23d0080f6a1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5d7abbeffe8c71cd71b281c63b9b97d') in 0.123944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bakery/examples/example_directional_RNMSettings.lighting
+  artifactKey: Guid(ca029b4f9d2ca1b4eb6e647c5c95ccd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/example_directional_RNMSettings.lighting using Guid(ca029b4f9d2ca1b4eb6e647c5c95ccd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd09d3593f807bd6bfe614050719cede') in 0.016023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.403500 seconds.
+  path: Assets/Bakery/examples/example_sectors.unity
+  artifactKey: Guid(aae617f31cf646c4c817c4e736ab26bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/example_sectors.unity using Guid(aae617f31cf646c4c817c4e736ab26bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec0bac4020693c07c1d2040c64a4a1f4') in 0.010047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8009560bdfbe6131e5dc5788a14e7a9') in 0.009071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bakery/examples/content/demonormal.mat
+  artifactKey: Guid(9102022adfbe4184d9e91b0e50ffb5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/demonormal.mat using Guid(9102022adfbe4184d9e91b0e50ffb5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aabafba6e5a5b6769ec2a33149193d14') in 0.039722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bakery/examples/content/demoblack.mat
+  artifactKey: Guid(95777ad46a2627948a4b4d49c8660ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/demoblack.mat using Guid(95777ad46a2627948a4b4d49c8660ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c18d799b534d27d60fa413668c59049') in 0.015119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/light.mat
+  artifactKey: Guid(973308bbd39fae348be1ab12ac67a9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/light.mat using Guid(973308bbd39fae348be1ab12ac67a9fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b9f9a5bfa6ac491e3f6846e3785ed27') in 0.029731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/example_sponza_day.unity
+  artifactKey: Guid(cc3cbea1023df6745a187e42a862ddb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/example_sponza_day.unity using Guid(cc3cbea1023df6745a187e42a862ddb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be6f298b196cf0b41b902e7b65ba61ba') in 0.006938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Bakery/examples/content/demogreen.mat
+  artifactKey: Guid(110045865dd881f40b43ec98bb550a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/demogreen.mat using Guid(110045865dd881f40b43ec98bb550a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86989500c531555fb551cf678033f436') in 0.012515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/LMGroup_Sphere_VertexSH.asset
+  artifactKey: Guid(2f32081c71e7f6245a10b3791f33b76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/LMGroup_Sphere_VertexSH.asset using Guid(2f32081c71e7f6245a10b3791f33b76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf87c5fa5eb71e5c481eadd62022095e') in 0.013845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Bakery/examples/content/demogray.mat
+  artifactKey: Guid(4b8d8761dc69e1949a7f36cc7307f0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/demogray.mat using Guid(4b8d8761dc69e1949a7f36cc7307f0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5fd670d379d0bf5879d61d420f7e24') in 0.011835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/LMGroup_Plane_directional.asset
+  artifactKey: Guid(dbc6caa18f605f1468abd0792a17aee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/LMGroup_Plane_directional.asset using Guid(dbc6caa18f605f1468abd0792a17aee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '344be156a35e7a342ce6f1e240d13a6e') in 0.012392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Bakery/examples/content/example_prefabs_bake_skybox.asset
+  artifactKey: Guid(b26197720b91cf944bd1e017b9135eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/example_prefabs_bake_skybox.asset using Guid(b26197720b91cf944bd1e017b9135eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9683a8a4280d449f73f3b997b7c7870') in 0.011722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TsunaMoo/Shaders/GSAA.asset
+  artifactKey: Guid(a3c5c6cf9d1dd744589a5e3146f5a3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TsunaMoo/Shaders/GSAA.asset using Guid(a3c5c6cf9d1dd744589a5e3146f5a3a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1881e6aa90fdd34eaace10af17908fa') in 0.012937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(ef2069daeed3a2b4f8bf2b7c0614f433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(ef2069daeed3a2b4f8bf2b7c0614f433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '365ff792e31a42468445927e856754c2') in 0.044105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bakery/examples/content/black.mat
+  artifactKey: Guid(44e7a0ee9bdff9a4191a7c9bb85ec152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/black.mat using Guid(44e7a0ee9bdff9a4191a7c9bb85ec152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cbd6ba7be18219f1d1c78d4a7037113') in 0.010952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Bakery/examples/content/example_volumes_global_skybox.asset
+  artifactKey: Guid(68d01bf4b82936b41b7b92dd9c76dc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/example_volumes_global_skybox.asset using Guid(68d01bf4b82936b41b7b92dd9c76dc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e63f1fad49caadb586c6dc41e5e902d8') in 0.010170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/demonormal blue.mat
+  artifactKey: Guid(4e851833e2427ba489628e34b45d1523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/demonormal blue.mat using Guid(4e851833e2427ba489628e34b45d1523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14235f35b8e0ff2edcf102f0db00b4ed') in 0.014063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.535230 seconds.
+  path: Assets/Bakery/examples/content/shiny_floor.mat
+  artifactKey: Guid(105540f6327a1e6429b883b2ca0e0db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/shiny_floor.mat using Guid(105540f6327a1e6429b883b2ca0e0db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c05415149576bd624433206010d31ab') in 0.024396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bakery/examples/lightmaps/example_directional_SH_LM0_L1x.tga
+  artifactKey: Guid(e633e4a3ddd70f449850b81654a8f872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/example_directional_SH_LM0_L1x.tga using Guid(e633e4a3ddd70f449850b81654a8f872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2856fe4a8060f64e62819ac42edac551') in 0.019742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Editor/x64/Bakery/halffloat2hdr.exe
+  artifactKey: Guid(e15a4474deea07545a6e1b58d36c4d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/halffloat2hdr.exe using Guid(e15a4474deea07545a6e1b58d36c4d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cec284b21bebe9ce0a0759747bdc711') in 0.005488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Bakery/examples/lightmaps/example_directional_SH_LMA1_L1y.tga
+  artifactKey: Guid(6b863795a72f6304ab5384aef2e1158e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/example_directional_SH_LMA1_L1y.tga using Guid(6b863795a72f6304ab5384aef2e1158e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ec19179adf496d54c592162e1d96350') in 0.021350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/denoiseFinishSH_OIDN.ptx
+  artifactKey: Guid(0d06c9e9bf3986941abe247af43f8ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/denoiseFinishSH_OIDN.ptx using Guid(0d06c9e9bf3986941abe247af43f8ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a7342d16b1f74440b17baf3d3a1d70c') in 0.006464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Editor/x64/Bakery/halffloat2vb.dll
+  artifactKey: Guid(77e9329d2b603b046bbb020a6b7bed62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/halffloat2vb.dll using Guid(77e9329d2b603b046bbb020a6b7bed62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f31f118a6d10ae6e9dfac7d6ea93ba') in 0.008395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bakery/examples/lightmaps/LMGroup_Plane_RNM_RNM2.hdr
+  artifactKey: Guid(3caf77d131f85c549828ba91e93e2536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/LMGroup_Plane_RNM_RNM2.hdr using Guid(3caf77d131f85c549828ba91e93e2536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40478504e199eee09549d53ec9726ed2') in 0.018512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/New Terrain 1.asset
+  artifactKey: Guid(100162f69dfa99f4a9114658ab5543df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/New Terrain 1.asset using Guid(100162f69dfa99f4a9114658ab5543df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5966ac2efffab81385ba1846076f1b0e') in 0.080398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/cudart32_91.dll
+  artifactKey: Guid(4e60d954644e0a145b35eea29aeba48a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/cudart32_91.dll using Guid(4e60d954644e0a145b35eea29aeba48a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9dd0b49956dab4b8a2bca7fac188d74') in 0.007579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Bakery/examples/shaders/Baked_Normal_Maps_terrain_meta.shader
+  artifactKey: Guid(c071342c6ed3a214cac24c80263f3079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/shaders/Baked_Normal_Maps_terrain_meta.shader using Guid(c071342c6ed3a214cac24c80263f3079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17d75e696875eaa52c7198a60d88f5c1') in 0.007532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo.unity
+  artifactKey: Guid(ea6cfdefc85f92f4db065e17f7db5c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo.unity using Guid(ea6cfdefc85f92f4db065e17f7db5c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76a03ef3a335e246d7439c664453ca7b') in 0.006055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_TexturesSettings.lighting
+  artifactKey: Guid(9f7be007f3849314591edf7238312078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_TexturesSettings.lighting using Guid(9f7be007f3849314591edf7238312078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a94aaa87ff39e7018871b6e1644ad4f6') in 0.013806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/lightmaps/LMGroup_Sphere_VertexMonoSH0.asset
+  artifactKey: Guid(07337c7ace55a574fbbf11d581ced9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/LMGroup_Sphere_VertexMonoSH0.asset using Guid(07337c7ace55a574fbbf11d581ced9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e51c6794db9af527c8418c947e1006c2') in 0.011930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/d3dcompiler_47.dll
+  artifactKey: Guid(c17aba6c3878ffb4da8ecb9800b93d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/d3dcompiler_47.dll using Guid(c17aba6c3878ffb4da8ecb9800b93d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd27af942629c7f7bca2a2de7d642aa2f') in 0.007750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Bakery/examples/lightmaps/LMGroup_Sphere_VertexSH0.asset
+  artifactKey: Guid(c131d839dc7bb0049a7ab1c9cef73ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/LMGroup_Sphere_VertexSH0.asset using Guid(c131d839dc7bb0049a7ab1c9cef73ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dbbfde784cb7ccda6feecb1ab2697b8') in 0.010710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bakery/examples/lightmaps/example_directional_SH_LM0_L1y.tga
+  artifactKey: Guid(4d8533fd89561ed428ab72f0e23e3b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/example_directional_SH_LM0_L1y.tga using Guid(4d8533fd89561ed428ab72f0e23e3b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '684f2a9617f24be6d4dd10a704d4ca4e') in 0.020668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bakery/examples/scripts/VolumeTestScene2.cs
+  artifactKey: Guid(f7a6f035f96fb254a92088728f6ac9f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/scripts/VolumeTestScene2.cs using Guid(f7a6f035f96fb254a92088728f6ac9f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7d203eaaeaa3d3d2cf951a26f807214') in 0.006689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Editor/x64/Bakery/fixPos2.ptx
+  artifactKey: Guid(81c36c1f006bd8848b64a84a623af92d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/fixPos2.ptx using Guid(81c36c1f006bd8848b64a84a623af92d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aff551827782bafb9fe12dd1c4da1711') in 0.006101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Editor/x64/Bakery/attrib_trimeshTexLODselect.ptx
+  artifactKey: Guid(aac069d2f1ef4f54b99e859563c0b380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/attrib_trimeshTexLODselect.ptx using Guid(aac069d2f1ef4f54b99e859563c0b380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bce18703b84d2bc03df8cbec1c5c91f') in 0.006159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Bakery/examples/content/sponza_day_skybox.asset
+  artifactKey: Guid(39874cbd56d0dfd41bd841436aad3612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza_day_skybox.asset using Guid(39874cbd56d0dfd41bd841436aad3612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd69d75fcffa240cd0052cf71ade95436') in 0.012274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/ftServer.exe
+  artifactKey: Guid(ee2998595053cdd4a9b503902cabd498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/ftServer.exe using Guid(ee2998595053cdd4a9b503902cabd498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe627e65a44e185ed2271c5076562ecc') in 0.006939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Bakery/examples/content/yellowlight.mat
+  artifactKey: Guid(f8e46267797f6a14884e8e94062539fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/yellowlight.mat using Guid(f8e46267797f6a14884e8e94062539fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbb5a06abd231e700e33d14906e550b5') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/lightmaps/example_shadowmask_LM0_dir.tga
+  artifactKey: Guid(ed219786d4938ba48bcc59ee9d8cdfff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/lightmaps/example_shadowmask_LM0_dir.tga using Guid(ed219786d4938ba48bcc59ee9d8cdfff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11a12dd14109ab103014e10e9febe159') in 0.019453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.355689 seconds.
+  path: Assets/Editor/x64/Bakery/icon.png
+  artifactKey: Guid(9f3214aa72e84444bafd15f7a4c74fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/icon.png using Guid(9f3214aa72e84444bafd15f7a4c74fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd13a81a80747cd2d12d31ce792fadb97') in 0.014599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/uvTerrainSmoothPos.pso
+  artifactKey: Guid(50dad8e5c6c394b48b0fd448d27993cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/uvTerrainSmoothPos.pso using Guid(50dad8e5c6c394b48b0fd448d27993cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c88639f53fc092a33ade826c675419') in 0.006268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/mulHalfByte.ptx
+  artifactKey: Guid(d83426084209bab47bfdba17f46666ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/mulHalfByte.ptx using Guid(d83426084209bab47bfdba17f46666ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98d4acd212accf75670687c9b7739e0c') in 0.006804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Editor/x64/Bakery/NormalsFittingTexture_dds
+  artifactKey: Guid(fad0196ede3a41749af057ec68f43124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/NormalsFittingTexture_dds using Guid(fad0196ede3a41749af057ec68f43124) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b741aeefd2b5a375bc99477e978eb32d') in 0.006029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Editor/x64/Bakery/lmAreaLightSH.ptx
+  artifactKey: Guid(59f629558be07bb4fbda253d540faaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmAreaLightSH.ptx using Guid(59f629558be07bb4fbda253d540faaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f1e0d56ea220a879c9ac6dc88882a8') in 0.006964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Editor/x64/Bakery/trimesh.ptx
+  artifactKey: Guid(d4461bc99675399499da2bf13cb84e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/trimesh.ptx using Guid(d4461bc99675399499da2bf13cb84e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baf6abc6d743e379b3e3788a09feb8b7') in 0.007436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Editor/x64/Bakery/lmSunSH.ptx
+  artifactKey: Guid(434f62bfd528b994d926b341c7747cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmSunSH.ptx using Guid(434f62bfd528b994d926b341c7747cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af3a77179a1ade210a0d830ceea758b4') in 0.005552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/uvfacenormal_point.gso
+  artifactKey: Guid(cf90142aabdb60f44bee0dc36653ce83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/uvfacenormal_point.gso using Guid(cf90142aabdb60f44bee0dc36653ce83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea25c471db08d4ecf7eafb77b79cfb78') in 0.005536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Editor/x64/Bakery/uvTerrainFaceNormal.pso
+  artifactKey: Guid(6b9cf8e9582d4164da6853815e912961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/uvTerrainFaceNormal.pso using Guid(6b9cf8e9582d4164da6853815e912961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fd38e9c656b9b5bbc9ff7f6d5ed032a') in 0.006288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Editor/x64/Bakery/lmSun.ptx
+  artifactKey: Guid(dcf09917846defb47b792613da34357e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmSun.ptx using Guid(dcf09917846defb47b792613da34357e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '232c7c08288a46e75c832a651de1ed2b') in 0.006258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Editor/x64/Bakery/lmAO.ptx
+  artifactKey: Guid(63fee9abd3eaf564b81dc332e5b5955d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmAO.ptx using Guid(63fee9abd3eaf564b81dc332e5b5955d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17af379a569770fe9410584c824286ca') in 0.006889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0aba594e1da6b9bffd09ab46e80cf9d') in 0.019144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/uvnormal.pso
+  artifactKey: Guid(3d59ccae59201de44933767a99edbefb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/uvnormal.pso using Guid(3d59ccae59201de44933767a99edbefb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89c49277b7860479886bf6d762aca47b') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a794fbe771b9641c51a3b28e16758c9') in 0.049080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Editor/x64/Bakery/uvrepack.dll
+  artifactKey: Guid(84a608d243ef13c439f2d53bca47f899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/uvrepack.dll using Guid(84a608d243ef13c439f2d53bca47f899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cc9d2fd75b770a5a7e6cf2f0121d9ed') in 0.007539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Editor/x64/Bakery/lmConeLightProbeSH.ptx
+  artifactKey: Guid(54bc4621eb11a6a40ba7aa3432daac74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmConeLightProbeSH.ptx using Guid(54bc4621eb11a6a40ba7aa3432daac74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50bd788061e5515bfe75abe87569ec58') in 0.005974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Editor/x64/Bakery/tbbbind_2_5.dll
+  artifactKey: Guid(68312f3ff6ce23549a1932f16f83f795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/tbbbind_2_5.dll using Guid(68312f3ff6ce23549a1932f16f83f795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aed7955f8e013c4c50b69d2a271646e') in 0.006299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Editor/x64/Bakery/packalpha.pso
+  artifactKey: Guid(8232c95120c18334da09ce9329de4963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/packalpha.pso using Guid(8232c95120c18334da09ce9329de4963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '224ad962dc590c79b7ddbc34b072fa22') in 0.006571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Editor/x64/Bakery/lmSkyCubemap.ptx
+  artifactKey: Guid(36fd7087290b6af4c9f043e9fde27fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmSkyCubemap.ptx using Guid(36fd7087290b6af4c9f043e9fde27fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8f97043f645e228a329bb24e5366f71') in 0.006658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Editor/x64/Bakery/lmSunSuperSampleSH.ptx
+  artifactKey: Guid(47858f1f25758a042a51ea80cafda55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmSunSuperSampleSH.ptx using Guid(47858f1f25758a042a51ea80cafda55a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '678a9a72710984a0a8f2525c7cd46bbd') in 0.007613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Editor/x64/Bakery/tbb12.dll
+  artifactKey: Guid(8832adcf1b334ee46b2432ed0c2e4f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/tbb12.dll using Guid(8832adcf1b334ee46b2432ed0c2e4f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ec300863e7e060a5a4afb942dc0d988') in 0.006688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Editor/x64/Bakery/lmConeLightRNM.ptx
+  artifactKey: Guid(3bbf2265029973c419a3bcb8fbcb2fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lmConeLightRNM.ptx using Guid(3bbf2265029973c419a3bcb8fbcb2fc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f44f327c9976caadb97fd3c71cee72b2') in 0.005743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.342887 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+  artifactKey: Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity using Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '279da0d676c97d7b83542781fe06e512') in 0.009954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79f56c35fca6b956a0878e2f6fe40fba') in 0.006592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftUpdater.cs
+  artifactKey: Guid(7150afb8f1312c144ab37ad7b22c6e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftUpdater.cs using Guid(7150afb8f1312c144ab37ad7b22c6e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c99be2546899cbc6d2e2e2b07e24f686') in 0.006606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Editor/x64/Bakery/hwtestdata/vbtraceUV0.bin
+  artifactKey: Guid(9bf1a6130f5bd7d4d8323100b5bf88f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/hwtestdata/vbtraceUV0.bin using Guid(9bf1a6130f5bd7d4d8323100b5bf88f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce6079299ff5c839e01e5a88ec5a601c') in 0.006566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftRenderLightmap.cs
+  artifactKey: Guid(dc64e635488f60747bf5e9025c593285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftRenderLightmap.cs using Guid(dc64e635488f60747bf5e9025c593285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eed3eb455f2a7daddbe04db126a4158') in 0.009181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dcaaf9db424d298ba4155a285c0173d') in 0.007473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction3.png
+  artifactKey: Guid(a01e8f6cbdbea3e4daec924917271957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction3.png using Guid(a01e8f6cbdbea3e4daec924917271957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebc860f0ad9f35dcb5b06500535cebe8') in 0.018494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b4c7d505a36cda3363c92b764bc5edd') in 0.015482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftAtlasPreview.cs
+  artifactKey: Guid(42f4cd34e81c6a1498d3b0574f6124e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftAtlasPreview.cs using Guid(42f4cd34e81c6a1498d3b0574f6124e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05a105cb5e5bb1dee6521b2b8d3a9a3b') in 0.007625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a27a9a5a996531e5a4612912150f82e8') in 0.017806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_2017_1_part3.bin
+  artifactKey: Guid(ba7816ea05d4610418371036ad7841ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_2017_1_part3.bin using Guid(ba7816ea05d4610418371036ad7841ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a90b225a9e147fdcc93ead6e529f65a0') in 0.006662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d508d742a1c9cf148167798d14e4738') in 0.005955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftLMGroupInspector.cs
+  artifactKey: Guid(c93be7cc95a299b4391dc97ea53e9348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftLMGroupInspector.cs using Guid(c93be7cc95a299b4391dc97ea53e9348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2673ff525903da26bd8e648fe4346151') in 0.006195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TsunaMoo/Store/CrystalWater/DemoWater.mat
+  artifactKey: Guid(6a1000182b9ab4d4eae86a65dc20d032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TsunaMoo/Store/CrystalWater/DemoWater.mat using Guid(6a1000182b9ab4d4eae86a65dc20d032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a4044553850728ef3abad0c5de36d12') in 0.017826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '193ec538c2c541c2a01b271d6cb3e0ab') in 0.019661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftModelPostProcessor.cs
+  artifactKey: Guid(958d625f263bc9e468b7ea865c491cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftModelPostProcessor.cs using Guid(958d625f263bc9e468b7ea865c491cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f24ba2f3d027a414f5629e7a7ac19435') in 0.007801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_4.mat
+  artifactKey: Guid(3e9b40bb243ad504dbf2adbd0918b9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_4.mat using Guid(3e9b40bb243ad504dbf2adbd0918b9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb8a175b2614b43ee59cce4fa9eae972') in 0.017205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4655798941e8ccd6c12e202eae27f872') in 0.018468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '313f156e83917faeb4806f14f966b758') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftVolumeInspector.cs
+  artifactKey: Guid(96725c7b01d15304c92894c9b78b76d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftVolumeInspector.cs using Guid(96725c7b01d15304c92894c9b78b76d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '845034f01f2d6e7fa3de6b02f125e4cf') in 0.006958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df1624522902ee62f91fd4be5ee18ba3') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c53cd4eebecfff181c4ac58a2abd5ea9') in 0.007287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Bakery/examples/content/Materials/ftlogo.mat
+  artifactKey: Guid(9bb5184d823f9664ba43066d60baa6d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/Materials/ftlogo.mat using Guid(9bb5184d823f9664ba43066d60baa6d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8f93cf2ee55f9f1351b1fe5763e2dcf') in 0.013668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f073885b2de965d695fe00d0089fdafc') in 0.005470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6d4b35d218043b815215336f0fc0315') in 0.007406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftClearCache.cs
+  artifactKey: Guid(8d87362a9a7d1764092176850188e84b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftClearCache.cs using Guid(8d87362a9a7d1764092176850188e84b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7870ceb407f6e6e86f0d72eea0dbd980') in 0.007328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftPointLightInspector.cs
+  artifactKey: Guid(d965ed7d9a9a406418fe8b269b3fef30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftPointLightInspector.cs using Guid(d965ed7d9a9a406418fe8b269b3fef30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5928fa9f58e6da994c3ab2c69916bb7b') in 0.007436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b98fab6bab5b4f042b5c204957f05d60') in 0.006214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bdf9eb7d0237a0aab3db7c3939983ea') in 0.007086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_2017_1_part0.bin
+  artifactKey: Guid(44251655c8922d140a7e9ab5676e5263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_2017_1_part0.bin using Guid(44251655c8922d140a7e9ab5676e5263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d8705763704cd087185e28501110daf') in 0.005828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_11.mat
+  artifactKey: Guid(fe6847d63339b354f864815a92aca487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_11.mat using Guid(fe6847d63339b354f864815a92aca487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '132383a02117421c0a2315f3bcf9acf8') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7e95a3e0cf79e9631a59db2c21bb888') in 0.021324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_5_6_part3.bin
+  artifactKey: Guid(e47578a0834797d469b941948ea50f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/lightingDataChunks/LightingData_5_6_part3.bin using Guid(e47578a0834797d469b941948ea50f17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5089880602c3bdc21f4fcdf11a0c13be') in 0.006523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_1024.png
+  artifactKey: Guid(c0ac9c1f50050be448e74bfe03c4ea49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_1024.png using Guid(c0ac9c1f50050be448e74bfe03c4ea49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94646ad0e3a42fc7c6ecbcd908bf002b') in 0.017022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc9cf9940731a0816b7eacac2d11b361') in 0.006285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftSectorInspector.cs
+  artifactKey: Guid(adbe9477f3f37ce4b9269e796a502ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftSectorInspector.cs using Guid(adbe9477f3f37ce4b9269e796a502ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b44d377ff3f34216d0c8d2ee06b1aade') in 0.007126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53fb26817280d4eb8c9f29dc5a603e42') in 0.020674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a906464dbde02daba10dd19a5a81326') in 0.006052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/ftLMGroupSelectorInspector.cs
+  artifactKey: Guid(84f0a0db10ed05349987b7b2a49c345e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/ftLMGroupSelectorInspector.cs using Guid(84f0a0db10ed05349987b7b2a49c345e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d6d5906ed3eae1e626ba669fea9b88a') in 0.006619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+  artifactKey: Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity using Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc3ff22ba9d2d2a77405023964ec1a03') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dc79ead1779f32187eca9c82b1d1172') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/hwtestdata/heightmaps.bin
+  artifactKey: Guid(9f260cd8a9ee8d34a9234bee3aa4447b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/hwtestdata/heightmaps.bin using Guid(9f260cd8a9ee8d34a9234bee3aa4447b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c9d4c5df8f2650b184c340aebc41f2a') in 0.006523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.057755 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/sponza_column_a_diff.mat
+  artifactKey: Guid(3de079643dc9def40b423f76b69c7dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/sponza_column_a_diff.mat using Guid(3de079643dc9def40b423f76b69c7dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4cba65427cf521fd1d27c3f5f572abc') in 0.015493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png
+  artifactKey: Guid(f5a4f568ff21d5249a4eeb6c1b8ac488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png using Guid(f5a4f568ff21d5249a4eeb6c1b8ac488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd3cb4d6614fe0dfe74da8afe59dd644') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Medium.prefab
+  artifactKey: Guid(6f54d38fec5e41e4989c1967e0752c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Medium.prefab using Guid(6f54d38fec5e41e4989c1967e0752c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c79b64df255e5dd96fc26654b6a07c28') in 0.015335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_a_bump.png
+  artifactKey: Guid(446f57b89dbf53d45b1ab20a2ad674e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_a_bump.png using Guid(446f57b89dbf53d45b1ab20a2ad674e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '550c41c488cf4da8b924665368d8dcb2') in 0.019786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/sponza_thorn_diff.mat
+  artifactKey: Guid(8b6eaea6571dc8c4bb6f439c3652bfca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/sponza_thorn_diff.mat using Guid(8b6eaea6571dc8c4bb6f439c3652bfca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9f58dfc7a829d70efd214f1a89896ce') in 0.034226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/vase_hanging.mat
+  artifactKey: Guid(4dedd61c8ef4cab428f6c6e290dc5944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/vase_hanging.mat using Guid(4dedd61c8ef4cab428f6c6e290dc5944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecd9ffbb2622e22e6e3cc61bca777c79') in 0.016455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_thorn_mask.png
+  artifactKey: Guid(158eefb924ec9444b8ff2c84937489af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_thorn_mask.png using Guid(158eefb924ec9444b8ff2c84937489af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f7e647eeacc8dbf6416e7ce121ff01f') in 0.018261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Small.fbx
+  artifactKey: Guid(08258afcf0b38f34a93780d9aac149f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Small.fbx using Guid(08258afcf0b38f34a93780d9aac149f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c3a51ff90de9c36acc27ab8d08d1616') in 0.021532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_red.prefab
+  artifactKey: Guid(70e177edaef3e0c4e8b3eb1bdc204afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_red.prefab using Guid(70e177edaef3e0c4e8b3eb1bdc204afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55f55e13ba053d05d9cac12c39d208b7') in 0.012472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx
+  artifactKey: Guid(8fa14b9a88e1e3b438b750cb6a5ab0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx using Guid(8fa14b9a88e1e3b438b750cb6a5ab0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1a629e375bb133ad395849d0f4afb7c') in 0.015321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx
+  artifactKey: Guid(e48618fbdec2537478b522aba0afb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx using Guid(e48618fbdec2537478b522aba0afb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbc7a5eed2c63b161c8ab0c190533609') in 0.011849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab
+  artifactKey: Guid(e60b9bdfa5d189e44b91680db5645e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab using Guid(e60b9bdfa5d189e44b91680db5645e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19dc737daa7d63fea414415692129da7') in 0.015628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_red.prefab
+  artifactKey: Guid(0daf957263628ba469725bd52851fa78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_red.prefab using Guid(0daf957263628ba469725bd52851fa78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18120efd709aca6506374ec99db11852') in 0.013163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_a_diff.png
+  artifactKey: Guid(ea809144b1bcd014799678ae41ff1fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_a_diff.png using Guid(ea809144b1bcd014799678ae41ff1fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87de20715a0a98061efd9f92381c4fc2') in 0.015303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Medium.fbx
+  artifactKey: Guid(f5d03cefbd2d8fc458d323ae1fd12796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Medium.fbx using Guid(f5d03cefbd2d8fc458d323ae1fd12796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f633648534d7be61636b85601f8f357') in 0.011960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_1.fbx
+  artifactKey: Guid(34eac2aca8510464aab52cc659f8cd64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_1.fbx using Guid(34eac2aca8510464aab52cc659f8cd64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c80d120211dd631cf303f130e4de967') in 0.011408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/sponza_curtain_blue_diff.mat
+  artifactKey: Guid(ed53b87934592b74e9f0e0343fc5c70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/sponza_curtain_blue_diff.mat using Guid(ed53b87934592b74e9f0e0343fc5c70d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '151775f14f0e286ec94dc654c88283e2') in 0.014916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/sponza_fabric_blue_diff.mat
+  artifactKey: Guid(ee9d2c6bf860dab4d8dbdaad76b74278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/sponza_fabric_blue_diff.mat using Guid(ee9d2c6bf860dab4d8dbdaad76b74278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e34f35c8ca684a85712dcb7ddc24615a') in 0.012282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_ElevatorFrame.fbx
+  artifactKey: Guid(aa9d083a93bef124f9605bcbb6478dea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_ElevatorFrame.fbx using Guid(aa9d083a93bef124f9605bcbb6478dea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa0428a1e468d1adc52d3c84dcd7d2ee') in 0.016369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Medium.fbx
+  artifactKey: Guid(411748f0a2f7f8247b4777562f960ba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Medium.fbx using Guid(411748f0a2f7f8247b4777562f960ba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0878902bcb05cb4587b1fc106ecffb2c') in 0.016807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Editor/x64/Bakery/scripts/xatlas/xatlas-license.txt
+  artifactKey: Guid(157fce07d9e165f4ea73f754793d6c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/x64/Bakery/scripts/xatlas/xatlas-license.txt using Guid(157fce07d9e165f4ea73f754793d6c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86b9b5212002d3ef78feeb8d881476fb') in 0.009342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_curtain_green_diff.png
+  artifactKey: Guid(f47f37f891c36884fb8d8868ad231675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_curtain_green_diff.png using Guid(f47f37f891c36884fb8d8868ad231675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99ab89fa24530ef64bf028160d26374f') in 0.015211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Bakery/examples/content/sponza/Materials/vase_round.mat
+  artifactKey: Guid(f028aea0d5a15b74b9341e38b8872491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/Materials/vase_round.mat using Guid(f028aea0d5a15b74b9341e38b8872491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9001dc088705835b7563917478fe8849') in 0.015644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx
+  artifactKey: Guid(eb2fbcf0faffa74428c3620e86830077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx using Guid(eb2fbcf0faffa74428c3620e86830077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b8c83aecc96f42f0c425d81578944a') in 0.012624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx
+  artifactKey: Guid(13c5b9d94ac272145a30191629f297fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx using Guid(13c5b9d94ac272145a30191629f297fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '207774b2d21a6a6a7165ca815653de8f') in 0.015587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_fabric_diff.png
+  artifactKey: Guid(1da30eb44a3fef44c94483036227e02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_fabric_diff.png using Guid(1da30eb44a3fef44c94483036227e02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7534b490395330691de8350f9c965fd8') in 0.019021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx
+  artifactKey: Guid(2113dea347164f748b9c48514e713cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx using Guid(2113dea347164f748b9c48514e713cee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ecec7e74ab30e58b457b05c1e75666e') in 0.011209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_2Floors.fbx
+  artifactKey: Guid(234044a677c0fff41be6dc82404c7d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_2Floors.fbx using Guid(234044a677c0fff41be6dc82404c7d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef9e4c3c34613cb049a1ec23d155ded2') in 0.012112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Medium.fbx
+  artifactKey: Guid(3ff680a778e45b74eb753dd84521332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Medium.fbx using Guid(3ff680a778e45b74eb753dd84521332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62183ce1a3e660f8beccd96768b38bca') in 0.010548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_b_bump.png
+  artifactKey: Guid(03263fb76d7443d4db15f9097a7a6b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_column_b_bump.png using Guid(03263fb76d7443d4db15f9097a7a6b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f84e42686382ec8f7d9e241e3b0159bf') in 0.018641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium_2.prefab
+  artifactKey: Guid(a5050ce036dee2d4d9287249a1e60440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium_2.prefab using Guid(a5050ce036dee2d4d9287249a1e60440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3acefd8f1745ec97e5d76a348234d62') in 0.010592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_DoubleDoor_Medium.prefab
+  artifactKey: Guid(588182d91cae74549ae2bc9f699308d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_DoubleDoor_Medium.prefab using Guid(588182d91cae74549ae2bc9f699308d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a695508cfa032583845658b14d91db9') in 0.012192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab
+  artifactKey: Guid(1123dde5e341fcd4b8c6e5c6cdd68e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab using Guid(1123dde5e341fcd4b8c6e5c6cdd68e21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '797dd51869f8b237a77d8279f2ef836d') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8

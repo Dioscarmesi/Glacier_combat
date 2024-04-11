@@ -1,0 +1,186 @@
+﻿PROPERTIES_START
+    _Cutoff ("Alpha Cuttoff", Range(0.001, 1)) = 0.5
+    _CutoutSharpness ("Cutoff Sharpness", Range(1, 0.0001)) = 0.0001
+    
+    [MainTexture] [NoScaleOffset] [ExtraProperty] _MainTex ("Albedo", 2D) = "white" {}
+    [MainColor] _Color ("Color", Color) = (1,1,1,1)
+    [TexturePacking(AO, Roughness, Metallic, None, true)]
+    [Linear] [NoScaleOffset] [Tooltip(AO (R), Roughness (G), Metallic (B))] [Toggle(_MASKMAP)] _MaskMap ("Mask Map", 2D) = "white" {}
+    [Indent] _Metallic ("Metallic", Range(0,1)) = 0
+    _Roughness ("Roughness", Range(0,1)) = 0.5
+    [UnIndent] _OcclusionStrength ("Occlusion", Range(0,1)) = 1
+    [NoScaleOffset] [Normal] [ExtraProperty] [Toggle(_NORMALMAP)] _BumpMap ("Normal Map", 2D) = "bump" {}
+    _BumpScale ("Normal Scale", Float) = 1
+
+    _TriplanarScale ("Triplanar Scale", Float) = 1
+    [PowerSlider(2)] _TriplanarBlend ("Triplanar Blend", Range(1,100)) = 5
+
+    [Space(10)]
+    _SpecularOcclusion ("Specular Occlusion", Range(0,3)) = 1
+PROPERTIES_END
+
+
+DEFINES_START
+    // #define ATTRIBUTES_NEED_TEXCOORD0
+    // #define VARYINGS_NEED_INTERP0
+
+    // enable normalWS varying in shadowcaster as well to output alpha
+    #define VARYINGS_NEED_NORMAL
+    #define _NORMAL_DROPOFF_WS 1
+
+    #define APPROXIMATE_AREALIGHT_SPECULAR
+    #define UNITY_SPECCUBE_BOX_PROJECTION
+
+    #pragma shader_feature_local _MASKMAP
+    #pragma shader_feature_local _NORMALMAP
+DEFINES_END
+
+DEFINES_SHADOWCASTER_START
+#pragma skip_variants _MASKMAP
+#pragma skip_variants _NORMALMAP
+DEFINES_SHADOWCASTER_END
+
+CBUFFER_START
+    half4 _Color;
+    float _TriplanarScale;
+    half _Roughness;
+    half _Metallic;
+    half _BumpScale;
+    half _SpecularOcclusion;
+    half _OcclusionStrength;
+    half _Cutoff;
+    half _CutoutSharpness;
+    half _TriplanarBlend;
+CBUFFER_END
+
+
+CODE_START
+
+    TEXTURE2D(_MainTex);
+    TEXTURE2D(_BumpMap);
+    TEXTURE2D(_MaskMap);
+    SAMPLER(sampler_MainTex);
+    SAMPLER(sampler_BumpMap);
+    SAMPLER(sampler_MaskMap);
+
+    #define USE_SURFACEDESCRIPTION // SurfaceDescription: Albedo, Normal, Metallic, Emission, Smoothness, Occlusion, Alpha, AlphaClipThreshold, Reflectance
+    void SurfaceDescriptionFunction(Varyings IN, inout SurfaceDescription surface)
+    {
+        float3 weight = max(pow(abs(IN.normalWS), _TriplanarBlend), 0);
+        weight /= (weight.x + weight.y + weight.z).xxx;
+        weight = saturate(weight);
+
+        float3 scaledPosition = _TriplanarScale * IN.positionWS;
+        float2 uvX, uvY, uvZ;
+        GetTriplanarCoordinate(IN.positionWS * _TriplanarScale, uvY, uvZ, uvX);
+        uvY += (1.0 / 3.0);
+        uvZ += (1.0 / 3.0) * 2.0;
+        
+        half4 albedo_X = 0, albedo_Y = 0, albedo_Z = 0;
+        half3 normalTS_X = half3(0,0,1), normalTS_Y  = half3(0,0,1), normalTS_Z = half3(0,0,1);
+        half4 maskMap_X = 1, maskMap_Y = 1, maskMap_Z = 1;
+
+        float2 dxX = ddx(uvX);
+        float2 dyX = ddy(uvX);
+        float2 dxY = ddx(uvY);
+        float2 dyY = ddy(uvY);
+        float2 dxZ = ddx(uvZ);
+        float2 dyZ = ddy(uvZ);
+
+        UNITY_BRANCH
+        if (weight.x > 0)
+        {
+            albedo_X = SAMPLE_TEXTURE2D_GRAD(_MainTex, sampler_MainTex, uvX, dxX, dyX);
+            #ifdef _NORMALMAP
+                normalTS_X = UnpackNormalScale(SAMPLE_TEXTURE2D_GRAD(_BumpMap, sampler_BumpMap, uvX, dxX, dyX), _BumpScale);
+            #endif
+            #ifdef _MASKMAP
+                maskMap_X = SAMPLE_TEXTURE2D_GRAD(_MaskMap, sampler_MaskMap, uvX, dxX, dyX);
+            #endif
+        }
+
+        UNITY_BRANCH
+        if (weight.y > 0)
+        {
+            albedo_Y = SAMPLE_TEXTURE2D_GRAD(_MainTex, sampler_MainTex, uvY, dxY, dyY);
+            #ifdef _NORMALMAP
+                normalTS_Y = UnpackNormalScale(SAMPLE_TEXTURE2D_GRAD(_BumpMap, sampler_BumpMap, uvY, dxY, dyY), _BumpScale);
+            #endif
+            #ifdef _MASKMAP
+                maskMap_Y = SAMPLE_TEXTURE2D_GRAD(_MaskMap, sampler_MaskMap, uvY, dxY, dyY);
+            #endif
+        }
+
+        UNITY_BRANCH
+        if (weight.z > 0)
+        {
+            albedo_Z = SAMPLE_TEXTURE2D_GRAD(_MainTex, sampler_MainTex, uvZ, dxZ, dyZ);
+            #ifdef _NORMALMAP
+                normalTS_Z = UnpackNormalScale(SAMPLE_TEXTURE2D_GRAD(_BumpMap, sampler_BumpMap, uvZ, dxZ, dyZ), _BumpScale);
+            #endif
+            #ifdef _MASKMAP
+                maskMap_Z = SAMPLE_TEXTURE2D_GRAD(_MaskMap, sampler_MaskMap, uvZ, dxZ, dyZ);
+            #endif
+        }
+
+        half4 albedo = albedo_X * weight.x + albedo_Y * weight.y + albedo_Z * weight.z;
+        albedo *= _Color;
+        surface.Albedo = albedo.rgb;
+        surface.Alpha = albedo.a;
+
+        // UDN blend from bgolus https://bgolus.medium.com/normal-mapping-for-a-triplanar-shader-10bf39dca05a#6d4d
+        // _NORMAL_DROPOFF_WS enabled
+        #ifdef _NORMALMAP
+
+            #ifdef QUALITY_LOW // use UDN
+                // Swizzle world normals into tangent space and apply UDN blend.
+                // These should get normalized, but it's very a minor visual
+                // difference to skip it until after the blend.
+                normalTS_X = half3(normalTS_X.xy + IN.normalWS.zy, IN.normalWS.x);
+                normalTS_Y = half3(normalTS_Y.xy + IN.normalWS.xz, IN.normalWS.y);
+                normalTS_Z = half3(normalTS_Z.xy + IN.normalWS.xy, IN.normalWS.z);
+
+            #else // use RNM
+                // Get absolute value of normal to ensure positive tangent "z" for blend
+                half3 absVertNormal = abs(IN.normalWS);
+                // Swizzle world normals to match tangent space and apply RNM blend
+                normalTS_X = BlendNormalRNM(half3(IN.normalWS.zy, absVertNormal.x), normalTS_X);
+                normalTS_Y = BlendNormalRNM(half3(IN.normalWS.xz, absVertNormal.y), normalTS_Y);
+                normalTS_Z = BlendNormalRNM(half3(IN.normalWS.xy, absVertNormal.z), normalTS_Z);
+
+                // Get the sign (-1 or 1) of the surface normal
+                half3 axisSign = IN.normalWS < 0 ? -1 : 1;
+                // Reapply sign to Z
+                normalTS_X.z *= axisSign.x;
+                normalTS_Y.z *= axisSign.y;
+                normalTS_Z.z *= axisSign.z;
+            #endif
+
+            // Swizzle tangent normals to match world orientation and triblend
+            // normalized in the shader
+            surface.Normal = normalTS_X.zyx * weight.x + normalTS_Y.xzy * weight.y + normalTS_Z.xyz * weight.z;
+
+        #else
+            surface.Normal = IN.normalWS;
+        #endif
+
+        #ifdef _MASKMAP
+            half4 maskMap = maskMap_X * weight.x + maskMap_Y * weight.y + maskMap_Z * weight.z;
+
+            surface.Metallic = maskMap.b * _Metallic;
+            surface.Smoothness = 1.0 - (maskMap.g * _Roughness);
+            surface.Occlusion = lerp(1.0, maskMap.r, _OcclusionStrength);
+        #else
+            surface.Metallic = _Metallic;
+            surface.Smoothness = 1.0 - _Roughness;
+        #endif
+
+        surface.SpecularOcclusion = _SpecularOcclusion;
+
+        surface.AlphaClipThreshold = _Cutoff;
+        surface.AlphaClipSharpness = _CutoutSharpness;
+    }
+
+CODE_END
+
+#include_optional "Assets/Settings/LitShaderConfig.litshader"

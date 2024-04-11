@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af3dfb915eb47f488f79be10b52d932, type: 3}
+  m_Name: LitShaderSettings
+  m_EditorClassIdentifier: 
+  defaultShader: 0
+  bakeryMode: 0
+  bicubicLightmap: 0
+  nonLinearLightprobeSH: 0
+  nonLinearLightmapSH: 0
+  allowLPPV: 0
+  allowLTCGI: 0
+  dithering: 0
+  aces: 0
+  fixBlackLevel: 1
+  directionalLightVariants: 0
+  compileVertexLights: 1
+  compileLODCrossfade: 0
+  q_DisableForwardAdd: 1
+  q_DisableShadowCaster: 1
